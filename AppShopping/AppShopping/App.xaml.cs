@@ -10,7 +10,8 @@ namespace AppShopping
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            Device.SetFlags(new string[] { "Shpes_Experimental" });
+            MainPage = new Menu();
         }
 
         protected override void OnStart()
